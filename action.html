@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Color Picker</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style scoped>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+      html {
+        color: #404040;
+      }
+      body {
+        width: fit-content;
+        margin: 0;
+        font-family: "DM Sans";
+        background-color: #f8f9fa;
+      }
+      #form {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 8px 12px;
+      }
+      input {
+        border: 1px solid #808080;
+        border-radius: 8px;
+        font-size: 12px;
+        background-color: #e9ecef;
+        outline-color: #3674b5;
+        box-sizing: border-box;
+        color: #404040;
+      }
+      input[type="text"],
+      input[type="submit"] {
+        padding: 8px 10px;
+      }
+      input[type="submit"]:hover {
+        background-color: #e9ecef;
+      }
+      header,
+      footer {
+        text-align: center;
+        padding: 8px 10px;
+        background-color: #e9ecef;
+      }
+      .col {
+        display: flex;
+        align-items: stretch;
+        gap: 8px;
+      }
+      a {
+        text-decoration: none;
+        color: #3674b5;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <b>Blank Extension</b>
+    </header>
+    <div id="form">
+      <div class="col">
+        <input type="text" id="inputTitle" placeholder="Title of the tab" />
+        <input type="color" id="inputColor" />
+      </div>
+      <input type="submit" id="submit" value="Save Changes" />
+    </div>
+    <footer>
+      <small>Extension by <a href="">@adeteyah</a></small>
+    </footer>
+    <script src="action.js"></script>
+  </body>
+</html>

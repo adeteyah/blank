@@ -1,0 +1,14 @@
+{
+  "name": "Blank",
+  "description": "Blank in New Tab",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "action.html",
+    "default_icon": "icon.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "blank.html"
+  },
+  "permissions": ["storage"]
+}
