@@ -5,7 +5,7 @@
   "manifest_version": 3,
   "action": {
     "default_popup": "action.html",
-    "default_icon": "icon.png"
+    "default_icon": "icon-512.png"
   },
   "chrome_url_overrides": {
     "newtab": "blank.html"

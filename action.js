@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const color = inputColor.value;
 
     chrome.storage.local.set({ title, color }, () => {
-      alert("Settings saved!");
+      alert("Settings saved! Refresh the page now.");
     });
   });
 
