@@ -18,11 +18,43 @@ Customize your tab directly from the extensions menu in the top bar.
 
 💡 Simple, elegant, and completely distraction-free.
 
-🛠 How to Use\
-1️⃣ Download the extension here.\
-2️⃣ Click the Blank Extension icon in the top-right extensions list.\
-3️⃣ Set your preferred background color and tab title.\
-4️⃣ Open a new tab and enjoy your personalized blank space!\
+Since Blank isn't on the Chrome Web Store yet, you’ll need to install it manually using Chrome's Developer Mode.
+
+🛠 Step-by-Step Installation Guide:
+
+1️⃣ Download the Extension Files
+If the extension is hosted on GitHub, download the ZIP file:
+
+🔗 https://github.com/adeteyah/blank/archive/refs/tags/v1.0.0.zip
+
+If you already have the source code, move to the next step.
+
+2️⃣ Extract the ZIP File
+Locate the downloaded file.
+Right-click → Extract (Windows) or Double-click to extract (Mac).
+You should now have a folder containing all the extension files.
+
+3️⃣ Open Chrome Extensions Page
+Open Google Chrome.
+In the address bar, type:
+```chrome://extensions/```
+Press Enter.
+
+4️⃣ Enable Developer Mode
+In the top-right corner, toggle Developer Mode ON.
+
+📌 As Developer Mode enabled, It should appear this options:
+
+![image](https://github.com/user-attachments/assets/0241e5c4-222f-454b-8140-3701c95a2b47)
+
+5️⃣ Load the Extension
+Click "Load unpacked" (top left).
+Select the unpacked folder (the one you extracted).
+Click "Select Folder".
+
+6️⃣ Done! The Extension is Now Installed 🎉
+You should see Blank appear in the list of extensions.
+Click the 📌 pin icon next to it to keep it visible in the toolbar (Optional).
 
 ![{1B297C39-BB0A-450B-9DAC-F72EFDDA3F6B}](https://github.com/user-attachments/assets/548bc949-5d59-4e48-955b-e8369d1b3bcb)
 
